@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Kinjal Panjwani — AI Engineer</title>
+  <desc id="desc">An animated, futuristic three-dimensional AI network surrounding Kinjal Panjwani's name.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070A12"/><stop offset=".5" stop-color="#10152A"/><stop offset="1" stop-color="#071B1D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9B5DE5"/><stop offset=".5" stop-color="#6C63FF"/><stop offset="1" stop-color="#00D9C0"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#6C63FF" stop-opacity=".48"/><stop offset="1" stop-color="#6C63FF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#8B92B2" stroke-opacity=".08"/></pattern>
+  </defs>
+  <style>
+    .float{animation:float 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.delay{animation-delay:-2.4s}.spin{animation:spin 18s linear infinite;transform-origin:600px 212px}.spin2{animation:spinBack 13s linear infinite;transform-origin:600px 212px}.pulse{animation:pulse 3s ease-in-out infinite}.dash{stroke-dasharray:6 14;animation:dash 9s linear infinite}.blink{animation:blink 1.4s steps(2,end) infinite}
+    @keyframes float{0%,100%{transform:translateY(-8px) rotate(-2deg)}50%{transform:translateY(10px) rotate(2deg)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes spinBack{to{transform:rotate(-360deg)}}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes dash{to{stroke-dashoffset:-200}}@keyframes blink{50%{opacity:0}}
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+  </style>
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+  <ellipse cx="600" cy="210" rx="390" ry="160" fill="url(#glow)" filter="url(#shadow)"/>
+  <g fill="none" stroke="url(#accent)" opacity=".55"><ellipse class="spin" cx="600" cy="212" rx="465" ry="128" transform="rotate(-8 600 212)"/><ellipse class="spin2 dash" cx="600" cy="212" rx="350" ry="178" transform="rotate(13 600 212)"/></g>
+  <g class="float">
+    <path d="M120 105l50-29 50 29-50 29z" fill="#9B5DE5"/><path d="M120 105v57l50 29v-57z" fill="#5548C8"/><path d="M220 105v57l-50 29v-57z" fill="#00AFA3"/>
+    <circle cx="170" cy="134" r="7" fill="#fff" class="pulse"/>
+  </g>
+  <g class="float delay">
+    <path d="M981 272l49-28 49 28-49 29z" fill="#00D9C0"/><path d="M981 272v56l49 29v-56z" fill="#156E79"/><path d="M1079 272v56l-49 29v-56z" fill="#6657D9"/>
+    <circle cx="1030" cy="301" r="7" fill="#fff" class="pulse"/>
+  </g>
+  <g class="pulse" fill="#00D9C0"><circle cx="282" cy="312" r="5"/><circle cx="925" cy="104" r="5"/><circle cx="843" cy="348" r="4"/><circle cx="354" cy="75" r="4"/></g>
+  <g text-anchor="middle">
+    <text x="600" y="180" fill="#A7B0D0" font-size="17" letter-spacing="6">HELLO, I BUILD INTELLIGENT SYSTEMS</text>
+    <text x="600" y="245" fill="white" font-size="54" font-weight="800" letter-spacing="2">KINJAL PANJWANI</text>
+    <rect x="340" y="271" width="520" height="3" rx="2" fill="url(#accent)"/>
+    <text x="600" y="316" fill="#CFD5EA" font-size="21" letter-spacing="2">AI ENGINEER · GENAI · RAG · AGENTIC SYSTEMS</text>
+    <text x="600" y="354" fill="#00D9C0" font-size="16" font-family="monospace">turning ideas into intelligent products<tspan class="blink">_</tspan></text>
+  </g>
+</svg>
