@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="455" viewBox="0 0 900 455" role="img" aria-labelledby="title desc">
+  <title id="title">Kinjal Panjwani profile as key-value data</title><desc id="desc">An animated terminal card showing role, education, focus areas, languages, cloud platform, and current status.</desc>
+  <defs><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9B5DE5"/><stop offset="1" stop-color="#00D9C0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.cursor{animation:blink 1.2s steps(2,end) infinite}.scan{animation:scan 5s linear infinite}@keyframes blink{50%{opacity:0}}@keyframes scan{from{transform:translateY(-420px)}to{transform:translateY(420px)}}</style>
+  <rect x="5" y="5" width="890" height="445" rx="24" fill="#090D16" stroke="url(#stroke)" stroke-width="2"/>
+  <rect x="5" y="5" width="890" height="52" rx="24" fill="#111827"/><path d="M5 35h890v22H5z" fill="#111827"/>
+  <circle cx="35" cy="31" r="7" fill="#FF5F57"/><circle cx="59" cy="31" r="7" fill="#FEBC2E"/><circle cx="83" cy="31" r="7" fill="#28C840"/>
+  <text x="450" y="37" text-anchor="middle" fill="#76809C" font-size="14">kinjal@ai-lab — profile.json</text>
+  <rect class="scan" x="18" y="0" width="864" height="1" fill="#00D9C0" opacity=".35" filter="url(#glow)"/>
+  <g font-size="18">
+    <text x="40" y="93" fill="#00D9C0">kinjal@ai-lab:~$</text><text x="250" y="93" fill="#E6E9F2">cat profile.json</text>
+    <text x="40" y="132" fill="#A7B0D0">{</text>
+    <text x="68" y="168"><tspan fill="#9B5DE5">"role"</tspan><tspan fill="#A7B0D0">: </tspan><tspan fill="#F1F5F9">"AI Engineer"</tspan><tspan fill="#A7B0D0">,</tspan></text>
+    <text x="68" y="204"><tspan fill="#9B5DE5">"degree"</tspan><tspan fill="#A7B0D0">: </tspan><tspan fill="#F1F5F9">"B.S. Artificial Intelligence"</tspan><tspan fill="#A7B0D0">,</tspan></text>
+    <text x="68" y="240"><tspan fill="#9B5DE5">"focus"</tspan><tspan fill="#A7B0D0">: [</tspan><tspan fill="#00D9C0">"GenAI"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#00D9C0">"LLMs"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#00D9C0">"RAG"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#00D9C0">"Agents"</tspan><tspan fill="#A7B0D0">],</tspan></text>
+    <text x="68" y="276"><tspan fill="#9B5DE5">"languages"</tspan><tspan fill="#A7B0D0">: [</tspan><tspan fill="#F1F5F9">"Python"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#F1F5F9">"Java"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#F1F5F9">"C++"</tspan><tspan fill="#A7B0D0">, </tspan><tspan fill="#F1F5F9">"R"</tspan><tspan fill="#A7B0D0">],</tspan></text>
+    <text x="68" y="312"><tspan fill="#9B5DE5">"cloud"</tspan><tspan fill="#A7B0D0">: [</tspan><tspan fill="#F1F5F9">"AWS"</tspan><tspan fill="#A7B0D0">],</tspan></text>
+    <text x="68" y="348"><tspan fill="#9B5DE5">"currently"</tspan><tspan fill="#A7B0D0">: </tspan><tspan fill="#F1F5F9">"building practical AI systems"</tspan></text>
+    <text x="40" y="384" fill="#A7B0D0">}</text>
+    <text x="40" y="422" fill="#00D9C0">➜</text><text x="72" y="422" fill="#E6E9F2">Build. Experiment. Learn. Build better.</text><rect class="cursor" x="487" y="403" width="10" height="23" fill="#00D9C0"/>
+  </g>
+</svg>
